@@ -1,7 +1,9 @@
 #include<stdio.h>
 void main()
 {
+    //Initialization
     int arr1[2][3]={{1,2,3},{4,5,6}},arr2[3][2]={{7,8},{9,10},{11,12}},arr3[2][2],a=sizeof(arr1)/sizeof(arr1[0]),b=sizeof(arr2[0])/sizeof(arr2[0][0]);
+    //For multiplication
     for (int i=0;i<a;i++)
     {
         for (int j=0;j<b;j++)
@@ -12,6 +14,7 @@ void main()
             arr3[i][j]=temp;
         }
     }
+    //For printing the final matrix
     for (int i=0;i<a;i++)
     {
         for (int j=0;j<b;j++)
