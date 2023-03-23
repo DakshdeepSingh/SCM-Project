@@ -50,7 +50,7 @@ def order():
                 order()
                 break
             if t==3:
-                r=input("Type 's' for samosa, 't' for tea, 'sr' for spring roll, 'p' for pav bhaji, 'o' for oreo shake: \n")
+                r=input("Type 's' for samosa, 't' for Tea, 'sr' for Spring Roll, 'p' for Pav Bhaji, 'o' for Oreo Shake: \n")
                 if r=="s":
                     r="Samosa"
                 elif r=="t":
